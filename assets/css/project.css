@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  width: auto;
+  overflow-x: hidden;
+  /* font-family: 'Roboto', sans-serif; */
+}
+/*-----Imports------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*-----Common use classes-------*/
+.uppercase {
+  text-transform: uppercase;
+}
+.uppercase-bold {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+
+.grey-dot {
+  height: 7px;
+  width: 7px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1.5px 7px 1.5px 1.5px;
+}
+
+/* change the background color */
+.navbar-custom {
+  background-color: #f1f1f1;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: black;
+}
+.nav-link {
+  position: relative;
+}
+.current-page {
+  color: #e4af26 !important;
+}
+
+.nav-black {
+  color: black;
+}
+/*Media queries for link*/
+@media screen and (min-width: 992px) {
+  .current-page:before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 10px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+  }
+}
+#h {
+  font-size: 6.5rem;
+}
+/* Making the cards responsive**/
+.row::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+body {
+  /* font-family: 'Roboto'; */
+  width: auto;
+  /* overflow: hidden; */
+}
+/*-----Common use classes-------*/
+.uppercase {
+  text-transform: uppercase;
+}
+.uppercase-bold {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+/* change the background color */
+.navbar-custom {
+  background-color: #f1f1f1;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-size: 20px;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: black;
+}
+.nav-link {
+  position: relative;
+}
+.direction_text {
+  font-size: 1.9em;
+}
+.current-page {
+  color: #e4af26 !important;
+}
+.nav-black {
+  color: black;
+}
+/*------Background------------*/
+body {
+  background-color: #e5e5e5;
+}
+.project_intro {
+  background-image: url(../img/nick-fewings-_AXfP_W4fpU-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 620px;
+  position: relative;
+}
+.project_text {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(2, 7, 32, 0.726);
+}
+.project_text_wrapper {
+  position: absolute;
+  top: 21%;
+  left: 10%;
+  background-color: transparent;
+  width: 80%;
+  height: 76%;
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 123px;
+  padding: 6%;
+}
+p {
+  font-size: 22px;
+  padding-top: 3%;
+}
+.text_wrapper {
+  position: relative;
+}
+.anchor {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+}
+.anchor_tp_left {
+  left: 0%;
+}
+.anchor_tp_right {
+  right: 0%;
+}
+.anchor_bt_right {
+  right: 0%;
+}
+.anchor_bt_left {
+  left: 0%;
+}
+/* Making the Project text responsive*/
+@media screen and (max-width: 540px) {
+  #h {
+    font-size: 2.7rem;
+  }
+  .anchor {
+    height: 58px;
+    width: 58px;
+  }
+}
+.bt-size {
+  border-bottom: 10px solid #e4af26;
+  bottom: 0%;
+}
+.tp-size {
+  top: 0%;
+  border-top: 10px solid #e4af26;
+}
+.tp-color {
+  border-right: 10px solid #e4af26;
+}
+.bt-color {
+  border-left: 10px solid #e4af26;
+}
+.card-wrapper {
+  height: 572px;
+  width: 100%;
+  text-align: center;
+  margin-top: 18%;
+  border-radius: 10px;
+  box-shadow: -2px -3px 24px 0px rgba(50, 50, 50, 0.74);
+}
+.card-image {
+  width: 100%;
+  height: 60%;
+  opacity: 2;
+}
+.description {
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.body-text {
+  color: white;
+  background-color: #0f2531;
+  height: 200px;
+  padding-bottom: 2%;
+}
+
+/*------------Footer Section--------------*/
+#footer-section {
+  background-color: #0f2531;
+  color: white;
+  margin-top: 5%;
+  padding: 20px;
+}
+
+.footer-list {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.social-list {
+  padding-inline-start: 0;
+}
+.social-list li {
+  list-style: none;
+  display: inline;
+  padding: 10px 10px 10px 0;
+}
+.footer-link {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+}
+#sitemap {
+  display: inline-block;
+}

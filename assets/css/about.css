@@ -1,0 +1,523 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+body::before{
+    position: absolute;
+    
+}
+
+
+
+/*-----Common use classes for Navbar-------*/
+.uppercase{
+    text-transform: uppercase;
+}
+.uppercase-bold{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text-center{
+    text-align: center;
+}
+
+.grey-dot {
+    height: 7px;
+    width: 7px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1.5px 7px 1.5px 1.5px;
+    
+  }
+
+/* change the background color */
+.navbar-custom {
+    background-color: #F1F1F1;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    color: black;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: black;
+}
+.nav-link{
+    position:relative;
+}
+.current-page{
+    color: #E4AF26 !Important;
+}
+
+.nav-black{
+    color: black;
+}
+/*------Background------------*/
+body{
+    background-color: #E5E5E5;
+}
+
+/*About Us page*/
+
+.img{
+    width: 100%;
+    height: 110vh;
+    padding: 4%;
+} 
+.extra{
+    position: absolute;
+    text-align: center;
+    margin-left: 35%;
+}
+.heading1,.heading2{
+    color: #ffffff;
+}
+.heading1{
+    font-weight: bold;
+    font-size: 70px;
+    padding-top: 100%;
+    padding-bottom: 2%;
+}
+.heading2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*Navigation for our values,.....*/
+.active{
+    border-bottom: 4px solid #e4af26; 
+}
+.inactive:hover{
+    border-bottom: 4px solid #e4af26;
+}
+.b{
+    font-size: 35px;
+    padding: 7%;
+    margin: 0% 12%;
+    width: 250px;
+    text-align: center;
+}
+.navbar-nav{
+    margin-left: 20%;
+}
+
+/*OUR VALUES SECTION*/
+.top{
+    border-bottom: 4px solid #e4af26;
+    text-align: center;
+    margin: 0% 40%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    color:#0F2531;
+
+}
+
+.service,.service1{
+    text-align: center;
+    color:#0F2531;
+
+}
+.service{
+    font-size: 25px;
+    padding-top: 3%;
+}
+.service1{
+    font-size: 35px;
+}
+.serve{
+    background-color: whitesmoke;
+    margin: 3%;
+    height: 600px;
+}
+.logo{
+    padding-left: 30%;
+    height: 200px;
+    margin-top: 5%;
+    padding-bottom: 4%;
+}
+
+/*TEAM SECTION*/
+
+
+
+.img2,.img3,.img4,.img5{
+    width: 110%;
+    height: 500px;
+    margin: 2%;
+} 
+.letters{
+    position: absolute;
+    text-align: center;
+    padding-top: 75%;
+    padding-left: 30%;
+}
+.styles{
+    font-size: 20px;
+    font-weight: bold;
+    color:#e4af26 ;
+}
+.serve2{
+    background-color: whitesmoke;
+}
+.lead{
+    padding-right: 3%;
+    margin-top: 4%;
+}
+
+/*Events SECTION*/
+
+.img6{
+    height: 190px;
+    width: 100%;
+}
+.img7{
+    height: 190px;
+    width: 100%;
+    margin-top: 6%;
+}
+.img8{
+    height: 400px;
+    width: 100%;
+}
+.leads{
+    height: 300px;
+    width: 100%;
+    margin: -3%;
+    margin-bottom: 22%;
+    margin-top: 6%;
+}
+.events{
+    background-color: whitesmoke;
+    height: 650px;
+}
+.headevent{
+    font-weight: bold;
+    padding-bottom: 5%;
+    color:#0F2531;
+}
+.even{
+    text-align: center;
+}
+.col{
+    color:#0F2531;
+}
+.link{
+   
+    text-decoration: none;
+    color:#0F2531;
+    padding-top: 3%;
+}
+.address{
+    padding-bottom: 8%;
+    color:#0F2531;
+}
+
+/*Footer section*/
+#footer-section{
+    background-color:#0F2531;
+    color:white;
+    margin-top: 2%;
+    padding: 20px;
+    
+}
+
+.footer-list{
+    list-style: none;
+    padding-inline-start: 0;
+}
+#social-list li{
+    list-style: none;
+    display: inline;
+    padding: 10px 10px 10px 0;
+}
+.footer-link{
+   
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+#sitemap{
+    display: inline-block;
+}
+
+@media screen and (max-width: 1024px){
+    .heading1{
+        padding-top: 110%;
+    }
+    .navbar-nav{
+        margin-left: 10%;
+    }
+    .top{
+        margin: 0% 37%;
+        padding-top: 5%;
+    }
+    
+    .service,.service1{
+        text-align: center;
+        color:#0F2531;
+    
+    }
+    .service{
+        font-size: 25px;
+        padding-top: 3%;
+    }
+    .service1{
+        font-size: 35px;
+    }
+    .logo{
+        padding-left: 20%;
+    }
+    .letters{
+        padding-top: 75%;
+    }
+    .styles{
+        padding-top: 50%;
+    }
+    .img2,.img3,.img4,.img5{
+        width: 115%;
+    } 
+    .extra{
+        margin-left: 25%;
+        margin-top: 8%;
+    }
+    #social-list li img{
+        width: 18px;
+
+    }
+    .socialmedia{
+        font-size: 23px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .heading1{
+        font-size: 50px;
+        padding-top: 98%;
+    }
+    .extra{
+        margin-left: 19%;
+        margin-top: -1%;
+    }
+    .top{
+        margin: 0% 37%;
+        font-size: 30px;
+    }
+    .service{
+        font-size: 15px;
+        padding-top: 3%;
+    }
+    .service1{
+        font-size: 20px;
+    }
+    .logo{
+        padding-left:30%;
+        width: 70%;
+    }
+    .letters{
+        margin: 0px ;
+    }
+    .styles{
+        padding-top: 60%;
+    }
+    .img2,.img3,.img4,.img5{
+        width: 120%;
+    } 
+    .lead{
+        padding-right: 4%;
+    }
+    .letters{
+        padding-left: 18%;
+        margin-top: 35%;
+
+    }
+    .styles{
+        font-size: 15px;
+    }
+    .headevent{
+        font-size: 20px;
+    }
+    .address{
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+    .col{
+        font-size: 13px;
+    }
+    .socialmedia{
+        font-size: 15px;
+    }
+    .foot{
+        font-size: 18px;
+    }
+    #social-list li img{
+        width: 15px;
+        padding-top: 10px;
+    }
+    .ins{
+        margin-left: -33px;
+    }
+}
+@media screen and (max-width: 425px){
+    .img2,.img3,.img4,.img5{
+        width: 100%;
+    } 
+    .heading1{
+        font-size: 40px;
+        padding-top: 90%;
+        margin-top: 25%;
+    }
+    .img{
+        height: 80%;
+    }
+    .heading2{
+        font-size: 15px;
+    }
+    .top{
+        margin: 0% 32%;
+        font-size: 20px;
+    }
+    .service{
+        font-size: 19px;
+        margin-top:-10px ;
+    }
+    .service1{
+        font-size: 26px;
+        margin-top:-10px ;
+    }
+    .logo{
+        width: 50%;
+        height: 120px;
+        margin-left: 12%;
+    }
+    .styles{
+        padding-top: 60%;
+    }
+    .letters{ 
+        margin-top: -1%;
+        padding-left: 30%;
+    }
+    .styles{
+        font-size: 20px;
+    }
+    .img2,.img3,.img4,.img5{
+        width: 100%;
+    } 
+    .serve{
+        background-color: whitesmoke;
+        margin: 3%;
+        height: 900px;
+    }
+    .img6{
+        height: 250px;
+        width: 92%;
+        margin-left: 6%;
+
+    }
+    .img7{
+        height: 250px;
+        width: 92%;
+        margin-left: 6%;
+    }
+    .img8{
+        height: 250px;
+        width: 100%;
+        margin-bottom: 3%;
+        margin-left: 3%;
+
+    }
+    .leads{
+        height: 800px;
+        width: 100%;
+        margin: -3%;
+        margin-top: 6%;
+    }
+    .rep{
+        height: 1000px;
+    }
+    .events{
+        background-color: whitesmoke;
+        height: 1200px;
+    }
+    .headevent{
+        font-weight: bold;
+        padding-bottom: 5%;
+        color:#0F2531;
+    }
+    .even{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .address{
+        padding-bottom: 8%;
+        color:#0F2531;
+    }
+    .en{
+        text-align: center;
+    }
+    #footer-section{
+        margin-top: 8%;
+
+    }
+    .foot, .socialmedia{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 375px){
+    .heading1{
+        font-size: 35px;
+        padding-top: 90%;
+        margin-top: 10%;
+    }
+    .heading2{
+        font-size: 15px;
+    }
+    .extra{
+        margin-left: 15%;
+    }
+    .img{
+        height: 70%;
+    }
+}
+@media screen and (max-width: 320px){
+.top{
+    margin: 0% 25%;
+    font-size: 20px;
+    }
+    .extra{
+        margin-left: 10%;
+    }
+    .serve{
+        margin: 3%;
+        height: 900px;
+    }
+    .leads{
+        margin-right: 10%;
+    }
+}
+@media screen and (min-width: 992px){
+    .current-page:before {
+    content:'';
+    position: absolute;
+    top:30px;
+    left: 5px;
+    right: 0;
+    bottom:0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top:10px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom:5px solid transparent;
+}
+}
+/*
+
+#1e323e #fd5151  #e4af26 #0f2531
+*/ 

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams--- Paragon</title>
+
+    <link href="./assets/css/team.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <style>
+        body {
+            /* overflow: hidden !important;
+            overflow-y: hidden !important; */
+            padding: 0%;
+            margin: 0%;
+            background: #E5E5E5;
+        }
+        /* footer {
+            margin-top: 5%;
+            background: #0F2531;
+        } */
+        
+        hr {
+            color: white !important;
+            background-color: #FFFFFF;
+            width: 70% !important;
+        }
+        
+        .teamname {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 23px;
+            color: white;
+        }
+        
+        .teamdesc {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+        }
+        /* .navbar-nav>a {
+            margin-right: 5% !important;
+            padding-right: 3% !important;
+        } */
+        /* .navbar-nav {
+            margin-left: 15% !important;
+        }
+         */
+        
+        .tales {
+            height: 50% !important;
+        }
+        
+        .carousel-caption {
+            background: black !important;
+            border-radius: 2% !important;
+            opacity: 0.8;
+        }
+        
+        .childfoot {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 12px;
+            /* identical to box height */
+            color: #FFFFFF;
+        }
+        
+        .childfooticon {
+            font-size: 40px !important;
+            color: #FFFFFF;
+        }
+        
+        .childfooter {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            /* font-weight: 300; */
+            font-size: 14px;
+            line-height: 14px;
+            /* identical to box height */
+            color: #FFFFFF;
+        }
+        /* .navbar-nav>a { */
+        /* margin-left: 2% !important;
+            margin-right: 12% !important;
+            padding-left: -2%; */
+        /* color: black !important; */
+        /* font-weight: bold; */
+        /* display: inline-block; */
+        /* Home */
+        /* identical to box height*/
+        
+        .item img {
+            position: absolute;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+            min-height: 500px;
+        }
+        
+        .carousel-control-next,
+        .carousel-control-prev {
+            filter: invert(100%) !important;
+        }
+        
+        .caro {
+            /* margin-top: 2% !important; */
+        }
+    </style>
+</head>
+
+<body>
+    <!----------------------Navbar------------------->
+    <nav class="navbar navbar-custom navbar-expand-lg  navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo.png" width="130" height="40" alt="Paragon Logo" loading="lazy">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-item nav-link uppercase" href="index.html"> Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  uppercase" href="about.html"><span class="grey-dot"></span> About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link uppercase nav-black" href="services.html"><span class="grey-dot"></span> Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link uppercase current-page" href="team.html"><span class="grey-dot"></span> Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link uppercase" href="projects.html"><span class="grey-dot"></span> Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link uppercase" href="clients.html"><span class="grey-dot"></span> Clients</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link uppercase" href="contact.html"><span class="grey-dot"></span> Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- <nav class="navbar navbar-custom navbar-expand-lg  navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="./assets/img/logo.png " width="130" height="40" alt="Paragon Logo" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-item nav-link uppercase" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  uppercase" href="about.html"><span class="grey-dot"></span> About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link uppercase nav-black" href="services.html"><span class="grey-dot"></span> Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link uppercase current-page " href="team.html"><span class="grey-dot"></span> Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link uppercase" href="projects.html"><span class="grey-dot"></span> Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link uppercase" href="clients.html"><span class="grey-dot"></span> Clients</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link uppercase" href="contact.html"><span class="grey-dot"></span> Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav> -->
+
+    <!----------------------Navbar------------------->
+    <!-- <nav class="navbar navbar-custom navbar-expand-lg  navbar-light">
+        <a class="navbar-brand " href="index.html ">
+            <img src="./images/logo.png " width="130 " height="40 " alt="Paragon Logo " loading="lazy ">
+        </a>
+        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarNav " aria-controls="navbarNav " aria-expanded="false " aria-label="Toggle navigation ">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNav ">
+
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                    <a class="nav-item nav-link uppercase " href="# "> Home </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link uppercase " href="# "><span class="grey-dot "></span> About Us</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link uppercase nav-black " href="# "><span class="grey-dot "></span> Services</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link uppercase current-page " href="# "><span class="grey-dot "></span> Team<span class="sr-only ">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link uppercase " href="# "><span class="grey-dot "></span> Projects</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link uppercase " href="# "><span class="grey-dot "></span> Clients</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link uppercase " href="# "><span class="grey-dot "></span> Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav> -->
+
+    <div class="caro m-auto w-50 h-50 ">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions " data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions " data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img src="./assets/img/womanpink.png " class="d-block h-75 w-75 m-auto " alt="... ">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5 class="teamname ">MICHELLE DAVID</h5>
+                        <hr>
+                        <p class="teamdesc ">Co-Founder & CTO</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./assets/img/guyblue.png " class="d-block h-75 w-75 m-auto " alt="... ">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5 class="teamname ">TOM DAVID</h5>
+                        <hr>
+                        <p class="teamdesc ">Co-Founder & CTO</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./assets/img/guysmile.png " class="d-block h-75 w-75 m-auto " alt="... ">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5 class="teamname ">BEN DAVIES</h5>
+                        <hr>
+                        <p class="teamdesc ">Co-Founder & CTO</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./assets/img/womansmilenew.png " class="d-block h-75 w-75 m-auto " alt="... ">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5 class="teamname ">REBECCA ARNOLD</h5>
+                        <p class="teamdesc ">Co-Founder & CTO</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./assets/img/ladyblack.png " class="d-block h-75 w-75 m-auto " alt="... ">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5 class="teamname ">SERENA ADAMS</h5>
+                        <p class="teamdesc ">Co-Founder & CTO</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- <div class="container "> -->
+    <!-- <footer>
+            <div class="container-fluid ">
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-6 col-md-3 imgcol col-lg-3 col-xl-3 mb-5 ">
+                        <p><img src="./images/parabadge.png " alt=" " srcset=" "></p>
+                        <p class="childfoot ">An Architecture & Interior design <br>company that specializes in producing<br> quality work</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 imgcol col-lg-3 col-xl-3 mt-5 ">
+                        <p class="childfooter ">Sitemap&emsp;&emsp;Clients</p>
+                        <p class="childfoot ">Home&emsp;&emsp;&emsp;Contact Us</p>
+                        <p class="childfoot ">Services</p>
+                        <p class="childfoot ">Team</p>
+                        <p class="childfoot ">Project</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 imgcol col-lg-2 col-xl-2 mt-5 ">
+                        <p class="childfooter ">Information</p>
+                        <p class="childfoot ">Contact Us</p>
+                        <p class="childfoot ">Privacy Policy</p>
+                        <p class="childfoot ">Terms & Conditions</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 imgcol col-lg-2 col-xl-2 mt-5 ">
+                        <p class="childfooter ">Solutions</p>
+                        <p class="childfoot ">Interior Designs</p>
+                        <p class="childfoot ">Architecture</p>
+                        <p class="childfoot ">Art Design</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 imgcol col-lg-2 col-xl-2 mt-5 ">
+                        <p class="childfooter ">Social Media</p>
+                        <span class="childfooticon "><i class="fa fa-instagram "></i></span>
+                        <span class="childfooticon "><i class="fa fa-twitter " aria-hidden="true "></i></span>
+                        <span class="childfooticon "><i class="fa fa-facebook-f "></i></span>
+                    </div>
+                </div>
+
+            </div>
+        </footer> -->
+    <!-----------Footer-------------->
+    <footer id="footer-section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-4 col-lg-4">
+                    <img src="./assets/img/logo-white.png" width="150" height="70" alt="Paragon White Logo" loading="lazy">
+                    <p>An Architecture & Interior design company that specializes in producing quality work</p>
+                </div>
+                <div class="col-md-auto">
+                    <h4>Sitemap</h4>
+                    <div id="sitemap">
+                        <ul class="footer-list">
+                            <li>
+                                <a class="footer-link" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="team.html">Team</a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="projects.html">Project</a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="#">Client</a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="clients.html">Contact Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-auto">
+                    <h4>Information</h4>
+                    <ul class="footer-list">
+                        <li>
+                            <a class="footer-link" href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Terms and Conditions</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-auto">
+                    <h4>Solutions</h4>
+                    <ul class="footer-list">
+                        <li>
+                            <a class="footer-link" href="#">Interior Design</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Architecture</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Art Design</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-auto">
+                    <h4>Social media</h4>
+                    <ul class="social-list">
+                        <li>
+                            <a class="footer-link" href="#">
+                                <img src="./assets/img/instagram.png" width="24" height="24" alt="Instagram" loading="lazy">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">
+                                <img src="./assets/img/twitter.png" width="24" height="24" alt="Twitter" loading="lazy">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">
+                                <img src="./assets/img/facebook.png" width="24" height="28" alt="Facebook" loading="lazy">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+</body>
+
+</html>
